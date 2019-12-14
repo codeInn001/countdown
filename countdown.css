@@ -1,0 +1,74 @@
+body{
+    background-image: url("countdown.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: al 1s;
+    font-family: 'Raleway',sans-serif;
+}
+
+.blur-bcg{
+    background-image: url('blur.png');
+    height:700px;
+    width:auto;
+}
+
+.countdown-timer{
+    position: relative;
+    top:80px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.custom-alert{
+    position:relative;
+    top:100px;
+    text-align: center ;
+    color:white;
+    font-size:1.3em;
+    background:rgba(36, 34, 34,0.5);
+    width:300px;
+    padding:20px;
+    
+    border-radius:3px;
+    margin:0 auto;
+}
+
+.custom-name{
+    text-align: center;
+}
+button{
+ color:rgba(36, 34, 34,1);
+ font-weight: bold;
+}
+.add-font{
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+}
+.invalid-input{
+    color:rgb(238, 167, 167);
+}
+.play{
+    margin: 100px auto;
+    background:white;
+}
+span{
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 350px){
+    .countdown-timer{
+        font-size:32px;
+    }
+
+    .custom-alert{
+        font-size:16px;
+        width:auto;
+    }
+
+    p{
+        width:auto;
+    }
+} 
