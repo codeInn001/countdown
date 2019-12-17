@@ -36,8 +36,8 @@ const nameInput = document.querySelector('.custom-name');
 const customAlert = document.querySelector('.custom-alert');
 const media = document.querySelector('audio');
 const invalidInput = document.querySelector('.invalid-input');
-const playBtn = document.querySelector('.play')
-playBtn.style.display = 'none';
+//const playBtn = document.querySelector('.play')
+//playBtn.style.display = 'none';
 
 function updateTime(){
   var today = new Date();
@@ -79,7 +79,7 @@ function displayXmasMsg(){
       invalidInput.textContent = "Enter a valid name";
       
   }else{
-  playBtn.style.display = 'block'
+  //playBtn.style.display = 'block'
   customAlert.innerHTML =`<p> ${newInput}, <br> ${xmasMessage[random]}</p>`;
   customAlert.classList.add('add-font');
   
@@ -94,7 +94,7 @@ function displayXmasMsg(){
   }
   
 
-playBtn.addEventListener('click',playMedia);
+//playBtn.addEventListener('click',playMedia);
 submitBtn.addEventListener('click',displayXmasMsg);
 window.addEventListener('mousedown',playMedia);
 
